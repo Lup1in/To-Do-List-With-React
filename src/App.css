@@ -1,0 +1,98 @@
+body {
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  background-color: rgba(231, 231, 231, 0.774);
+  padding: 30px;
+  color: black;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color:  rgba(218, 215, 215, 0.774);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: transparent;
+  transition: 0.5s;
+  color: black;
+  opacity: 1;
+}
+
+.todoForm {
+  padding-bottom: 1.5rem;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(204, 200, 200, 0.774);;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.complete {
+  background-color: #70e670;
+  opacity: 0.8;
+  color: white;
+}
+
+.delete {
+  background-color: #e96d68;
+  opacity: 0.8;
+}
+
+.complete:hover {
+  opacity: 1;
+  background-color: #5cb85c;;
+}
+
+.delete:hover {
+  opacity: 1;
+  background-color: #D9534F;
+}
+
+.to-do-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.todo {
+  box-shadow: 0 0 10px rgba(0,0,0 0.1);
+  background-color: whitesmoke;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
